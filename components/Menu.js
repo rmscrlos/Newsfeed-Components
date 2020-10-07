@@ -59,6 +59,6 @@ function menuMaker(items) {
 	return menu;
 }
 
+//selecting header
 const header = document.querySelector('.header');
-
 header.appendChild(menuMaker(menuItems));
