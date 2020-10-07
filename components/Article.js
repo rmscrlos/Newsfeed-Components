@@ -179,8 +179,7 @@ data.forEach((item) => {
 	articles.appendChild(article);
 });
 
-console.log(articles);
-
+//apending function
 function appendChildren(parent, child) {
 	parent.appendChild(child);
 }
